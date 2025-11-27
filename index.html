@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gativideo</title>
+    <link rel="stylesheet" href="main.css"> 
+</head>
+
+
+<body>
+    <div class="contenedor-imagen">
+        <img src="img/gativideo.png" alt="Logo de gativideo">
+    </div>
+    <div class="filters-container">
+        <div class="filter-group">
+            <label for="genreFilter">Filtrar por Género:</label>
+            <select id="genreFilter">
+                <option value="all">Todos los Géneros</option>
+                </select>
+        </div>
+        <div class="filter-group">
+            <label for="yearFilter">Filtrar por Año:</label>
+            <select id="yearFilter">
+                <option value="all">Todos los Años</option>
+                </select>
+        </div>
+    </div>
+
+    <table id="moviesTable">
+        <thead>
+            <tr>
+                <th>Portada</th> <th>Título</th>
+                <th>Género</th>
+                <th>Año</th>
+                <th>Director</th>
+                <th>Duración (min)</th>
+                <th>Detalle</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
+    
+    
+    <footer class="footer">
+        <section class="footer-container">
+            <div class="footer-container__box1">
+
+                <p class="footer-container__box1-p1">Juegoteca Cósmica </p>
+
+                <p class="footer-container__box1-p2">©Copyright 2022</p>
+                <p class="footer-container__box1-p2">Cosmica S.A</p>
+                <p class="footer-container__box1-p2">Buenos Aires , Argentina</p>
+            </div>
+            <div class="footer-container__box2">
+                <p class="footer-container__box1-p1">Nosotros</p>
+                <ul class="footer-container__box2-ul1">
+                    <li class="footer-container__box2-li1">Ubicación</li>
+                    <li class="footer-container__box2-li1">Información de la marca</li>
+                    <li class="footer-container__box2-li1">Trabaja con Nosotros</li>
+                    <li class="footer-container__box2-li1">Política de privacidad</li>
+                    <li class="footer-container__box2-li1">Tramites</li>
+                    <li class="footer-container__box2-li1">Terminos Y Condiciones</li>
+                    <li class="footer-container__box2-li1">Cambios y devoluciones</li>
+                    <li class="footer-container__box2-li1">Plazos y costos de entrega</li>
+                    <li class="footer-container__box2-li1">Venta Cosrporativa</li>
+                </ul>
+            </div>
+            
+        </section>
+    </footer>
+    <script src="main.js"></script> 
+</body>
+
+</html>
