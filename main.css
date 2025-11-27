@@ -1,10 +1,10 @@
 
 body {
     background-image: url('img/universe.jpg');
-   background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
-    background-position: center; /* Centra la imagen */
-    background-attachment: fixed; /* Fija la imagen al hacer scroll */
+   background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
 }
 
 h1 {
@@ -14,18 +14,18 @@ h1 {
 
 #moviesTable {
     width: 90%;
-    margin: 20px auto; /* Centrar tabla */
-    border-collapse: separate; /* Necesario para border-radius */
+    margin: 20px auto; 
+    border-collapse: separate; 
     border-spacing: 0;
     border: 1px solid #555;
-    border-radius: 15px; /* Bordes redondeados */
-    overflow: hidden; /* Asegura que el contenido interno siga el radio */
-    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2); /* Sombra para darle profundidad */
+    border-radius: 15px; 
+    overflow: hidden; 
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2); 
 }
 
 
 #moviesTable thead th {
-    background-color: rgba(255, 255, 255, 0.2); /* Blanco con 20% de opacidad */
+    background-color: rgba(255, 255, 255, 0.2); 
     padding: 12px 15px;
     text-align: left;
     color: #fff;
@@ -34,9 +34,9 @@ h1 {
 
 
 #moviesTable tbody td {
-    background-color: rgba(255, 255, 255, 0.15); /* Blanco con 15% de opacidad */
+    background-color: rgba(255, 255, 255, 0.15); 
     padding: 10px 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05); /* Borde sutil entre filas */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05); 
     vertical-align: middle;
     border-radius: 3px;
     
@@ -70,13 +70,13 @@ body {
 h1 {
     text-align: center;
     color: #00ffcc; 
-    margin-bottom: 30px; /* Margen inferior para separarlo de la tabla/filtros */
+    margin-bottom: 30px; 
 }
 
-/* Estilo de la tabla (más centrada y con más espacio) */
+
 #moviesTable {
-    width: 80%; /* Reducir el ancho para dejar más espacio en los lados */
-    margin: 40px auto; /* Aumentar el margen vertical y asegurar el centrado */
+    width: 80%; 
+    margin: 40px auto; 
     border-collapse: separate; 
     border-spacing: 0;
     border: 1px solid #555;
@@ -90,10 +90,10 @@ h1 {
 .footer,
 .footer-container__box1-p2 {
     width: 95%;
-    margin: 20px auto; /* Centrar con el mismo ancho de la tabla */
+    margin: 20px auto; 
     display: flex;
-    justify-content: center; /* Centrar los elementos dentro del contenedor */
-    gap: 30px; /* Espacio entre los selectores */
+    justify-content: center; 
+    gap: 30px; 
     padding: 8px 10px;
    background-color: rgba(0, 0, 0, 0.35);
     border-radius: 10px;
@@ -105,26 +105,26 @@ h1 {
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #555;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el selector */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: #fff;
     cursor: pointer;
     min-width: 150px;
     
 }
 
-/* Ajuste del cuerpo para grandes márgenes laterales */
+
 body {
-    /* Mantenemos el margen amplio para que la tabla no toque los bordes del navegador */
+    
     margin: 40px 10%; 
-    /* ... */
+    
 }
 
-/* Estilo de la tabla (más centrada y compacta) */
+
 #moviesTable {
     width: 80%; 
-    border: 1px solid rgba(255, 255, 255, 0.05); /* Borde muy sutil entre celdas */
+    border: 1px solid rgba(255, 255, 255, 0.05); 
     margin: 40px auto; 
-    border-collapse: collapse; /* 🆕 CAMBIO CLAVE: Usa 'collapse' para bordes más finos y compactos */
+    border-collapse: collapse; 
     border-spacing: 0;
     border: 1px solid #555;
     border-radius: 15px; 
@@ -133,7 +133,7 @@ body {
     
 }
 
-/* Estilo de las cabeceras */
+
 #moviesTable thead th , 
 .filter-group label {
     background-color: rgba(255, 255, 255, 0.2); 
@@ -145,14 +145,14 @@ body {
     
 }
 
-/* Estilo de las celdas */
+
 #moviesTable tbody td {
     background-color: rgba(0, 0, 0, 0.35); 
     padding: 8px 10px; 
     text-align: center; 
-    vertical-align: middle; /* Alineación vertical al medio */
-    border: 1px solid rgba(255, 255, 255, 0.15); /* Borde muy sutil entre celdas */
-    line-height: 1.2; /* Espaciado de línea más compacto */
+    vertical-align: middle; 
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+    line-height: 1.2; /
        
 }
 
@@ -166,55 +166,15 @@ body {
 }
 
 .contenedor-imagen {
-  text-align: center; /* Centra la imagen horizontalmente */
+  text-align: center; 
 }
 
 .footer {
   padding: 0px;
-  
   display: block;
   text-align: center;
   letter-spacing: 4px;
 }
 
 
-.footer-container {
-  padding: 50px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-  gap: 1%;
-  justify-content: space-between;
-  
-}
-
-.footer-container__box1-img1 {
-  display: inline-block;
-  height: 80px;
-  border-radius: 50%;
-}
-.footer-container__box1-img2 {
-  height: 20px;
-}
-.footer-container__box1-p2:nth-child(4) {
-  margin-bottom: 10%;
-}
-.footer-container__box1-imgpay {
-  background-color: #fff;
-  width: 500px;
-  margin-top: 5px;
-  border-radius: 2%;
-}
-.footer-container__box2-p1 {
-  text-align: left;
-  padding: 2px;
-  color: #fff;
-}
-.footer-container__box2-li1 {
-  margin: 10px 0;
-  text-align: left;
-  overflow: hidden;
-  color: #fff;
-}
 
